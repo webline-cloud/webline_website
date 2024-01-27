@@ -42,7 +42,7 @@ const Header = () => {
           <div onClick={handleButtonClick} className='cursor-pointer'>Contact Us</div>
         </div>
         <div>
-          <div onClick={handleButtonClick} className='bg-[#4771cb] cursor-pointer text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb]'>Get Your Quote</div>
+          <div onClick={handleButtonClick} className='bg-[#4771cb] hidden md:block cursor-pointer text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb]'>Get Your Quote</div>
         </div>
       </div>
       {/* header end  */}
@@ -72,9 +72,9 @@ const Header = () => {
                 <h1 className='text-[60px] font-extrabold bg-gradient-to-r from-[#FA9D4D] to-[#FF4F6B] bg-clip-text text-transparent'>SEO & Digital Marketing Agency</h1>
               </div>
 
-              {/* <div>
-                <div className='bg-[#4771cb] text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb] w-[180px] text-center'>Get Your Quote</div>
-              </div> */}
+              <div>
+                <div className='bg-[#4771cb] block md:hidden text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb] w-[180px] text-center'>Get Your Quote</div>
+              </div>
             </div>
           </div>
         </div>

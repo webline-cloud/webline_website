@@ -46,7 +46,7 @@ const Contact = () => {
                         <h2 className='text-[30px] font-bold'><span className='text-[#088ec3]'>Get</span> In <span className='text-[#33ccc5]'>Touch</span> With Us</h2>
                     </div>
 
-                    <div className='flex justify-between'>
+                    <div className='md:flex justify-between '>
                         {/* left container start */}
                         <div className='flex items-center w-full '>
                             <div className='bg-white px-[80px] py-[30px] rounded-md text-center w-full '>
@@ -80,7 +80,7 @@ const Contact = () => {
 
 
                         {/* right container start */}
-                        <div className='flex flex-col items-center gap-8 px-[30px] py-[40px] border-[2px]  border-[#efefef]'>
+                        <div className='flex flex-col items-center  gap-8 px-[30px] py-[40px] border-[2px]  border-[#efefef]'>
                             <div className='flex flex-col items-center'>
                                 <img src={contact} alt="contact webline email" />
                                 <p className='text-[#afafaf]'>info@webline.cloud</p>

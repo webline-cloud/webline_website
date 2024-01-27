@@ -5,19 +5,19 @@ import about_img from "./../assets/Company images/about-left-image-removebg-prev
 const About = () => {
     return (
         <div className='flex justify-center mt-[30px]'>
-            <div className='flex justify-around max-w-[1200px] px-[20px]'>
+            <div className='md:flex  justify-around max-w-[1200px] px-[20px]'>
                 {/* left container start */}
-                <div className='w-[500px]'>
-                    <img className='w-full' src={about_img} alt="about us image" />
+                <div className='w-full md:w-[500px]'>
+                    <img className=' md:w-full h-[400px] md:h-auto mx-auto' src={about_img} alt="about us image" />
                 </div>
                 {/* left container end */}
 
                 {/* right container start */}
                 <div className='px-[30px] max-w-[1000px]'>
                     <div className='service_heading_container '>
-                        <h6 className='text-[#33ccc5] text-[25px] font-bold'>About Us</h6>
-                        <div className=' text-[30px] font-bold'>Top <span className='text-[#088ec3]'>Marketing</span> agency & consult</div>
-                        <div className='text-[30px] font-bold'>Your<span className='text-[#33ccc5]'> website </span>with us</div>
+                        <h6 className='text-[#33ccc5] text-[25px] font-bold text-center md:text-base'>About Us</h6>
+                        <div className=' text-[30px] font-bold  text-center md:text-base    '>Top <span className='text-[#088ec3]'>Marketing</span> agency & consult</div>
+                        <div className='text-[30px] font-bold text-center md:text-base'>Your<span className='text-[#33ccc5]'> website </span>with us</div>
                     </div>
 
                     <div>
