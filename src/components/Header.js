@@ -6,6 +6,7 @@ import banner_dec_left from "./../assets/images/banner-dec-left.png"
 // import banner_dec_left from "./../assets/images/banner-dec-left.png"
 import banner_dec_right from "./../assets/images/banner-dec-right.png"
 import banner_dec_right_img from "./../assets/images/banner-right-image.png"
+import Hero_Slider from './Hero_Slider'
 
 const Header = () => {
 
@@ -48,7 +49,7 @@ const Header = () => {
       {/* header end  */}
 
       {/* hero page start  */}
-      <div className=''>
+      {/* <div className=''>
       <div className=' flex justify-center '>
         <div className='left_div w-[40%] h-[90vh] '>
           <div className='relative '><img src={banner_dec_left} alt="" />
@@ -91,8 +92,12 @@ const Header = () => {
 
         </div>
       </div>
-      </div>
+      </div> */}
       {/* hero page end */}
+
+      {/* hero slider start */}
+      <Hero_Slider/>
+      {/* hero slider end */}
 
     </div>
   )
