@@ -106,7 +106,7 @@ const Contact = () => {
 
             </div>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYrC-jlMyX0ALUqZ2hcXp5ZtKQu8c8ksmb6CChyvMYqsh4UA/viewform?embedded=true" width="640" height="956" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    
 
         </div>
     )
