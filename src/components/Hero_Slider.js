@@ -49,8 +49,7 @@ const Hero_Slider = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={slider2} alt="slider2" />
-                        <div>hello world</div>
-
+                        
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={slider3} alt="slider3" />
