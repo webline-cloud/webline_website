@@ -18,61 +18,86 @@ const Services = () => {
                 <div className='card_container  flex justify-center'>
                     <div className='flex flex-wrap gap-[20px] justify-center w-[1200px] my-[20px]'>
                         <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px] rounded-sm'>
-                            <div className='flex justify-center items-center '>
+                            {/* <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon1} alt="similar website image" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='w-full'>
-                                <h4 className='font-semibold '>Similar website</h4>
-                                <p className='text-[15px] text-left'>Craft stunning websites tailored to your brand, ensuring a standout online presence and functionality.</p>
+                                <h4 className='font-bold text-[20px] text-center'>Get Your Digital Presence</h4>
+                                <p className='text-[17px]  text-center'>Web Designing</p>
+                                <p className='text-[17px] text-center'>SEO(Search Engine Optimization)</p>
+                                <p className='text-[17px] text-center'>SMM(Social Media Marketing)</p>
+                                <p className='text-[17px] text-center'>Portfolio</p>
+                                <p className='text-[17px] text-center'>Online Surveys</p>
+                                <p className='text-[17px] text-center'>Article and Blog Writing</p>
                             </div>
                         </div>
                         <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
-                            <div className='flex justify-center items-center '>
+                            {/* <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon2} alt="similar website image" />
                                 </div>
-                            </div>
-                            <div className='w-full'>
-                                <h4 className='font-semibold'>SEO</h4>
-                                <p className='text-[15px]'>Boost visibility on search engines, driving more traffic and enhancing your online discoverability.</p>
+                            </div> */}
+                             <div className='w-full'>
+                                <h4 className='font-bold text-[20px] text-center'>Advertise Your Business</h4>
+                                <p className='text-[17px]  text-center'>Business Promotion</p>
+                                <p className='text-[17px] text-center'>Marketing</p>
+                                <p className='text-[17px] text-center'>Affiliate Marketing</p>
+                                <p className='text-[17px] text-center'>Print Advertising</p>
+                                <p className='text-[17px] text-center'>Social Media Advertising</p>
+                                <p className='text-[17px] text-center'>Email Advertisement</p>
                             </div>
                         </div>
                         <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
-                            <div className='flex justify-center items-center '>
+                            {/* <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon3} alt="similar website image" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='w-full'>
-                                <h4 className='font-semibold'>Social Media Marketing</h4>
-                                <p className='text-[15px]'>Amplify your brand through strategic social media campaigns, connecting and engaging with your audience.</p>
+                                <h4 className='font-bold text-[20px] text-center'>Want Content for Business</h4>
+                                <p className='text-[17px]  text-center'>Photo And Video Editing</p>
+                                <p className='text-[17px] text-center'>Docs formatting</p>
+                                <p className='text-[17px] text-center'>Hindi And English Typing</p>
+                                <p className='text-[17px] text-center'>Letter Head Designing</p>
+                                <p className='text-[17px] text-center'>Content Writing</p>
+                                <p className='text-[17px] text-center'>Poster Designing</p>
                             </div>
                         </div>
                         <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
-                            <div className='flex justify-center items-center '>
+                            {/* <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon2} alt="similar website image" />
                                 </div>
-                            </div>
-                            <div className='w-full'>
-                                <h4 className='font-semibold'>Portfolio</h4>
-                                <p className='text-[15px]'>Showcase your best work elegantly, leaving a lasting impression on potential clients and partners.</p>
+                            </div> */}
+                          <div className='w-full'>
+                                <h4 className='font-bold text-[20px] text-center'>Webline for your Business Development</h4>
+                                <p className='text-[17px]  text-center'>E-Tender/Tender</p>
+                                <p className='text-[17px] text-center'>E-Auction</p>
+                                <p className='text-[17px] text-center'>GEM</p>
+                                <p className='text-[17px] text-center'>E-Commerce</p>
+                                <p className='text-[17px] text-center'>Digital Signature Cetrificate</p>
+                                <p className='text-[17px] text-center'>Quality/ISO Certification</p>
                             </div>
                         </div>
                         <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
-                            <div className='flex justify-center items-center '>
+                            {/* <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon1} alt="similar website image" />
                                 </div>
-                            </div>
-                            <div className='w-full'>
-                                <h4 className='font-semibold'>E-Business Card</h4>
-                                <p className='text-[15px]'>Digitize your identity with a dynamic E-business card, leaving a memorable and professional impression.</p>
+                            </div> */}
+                          <div className='w-full'>
+                                <h4 className='font-bold text-[20px] text-center'>Services You feel left with</h4>
+                                <p className='text-[17px]  text-center'>Contract work</p>
+                                <p className='text-[17px] text-center'>Tech News</p>
+                                <p className='text-[17px] text-center'>Computer Solution</p>
+                                <p className='text-[17px] text-center'>Quick Techincal Help</p>
+                                <p className='text-[17px] text-center'>Proof Reading</p>
+                                <p className='text-[17px] text-center'>Market Research</p>
                             </div>
                         </div>
-                        <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
+                        {/* <div className='cards flex gap-[20px] grow-0 border-4 border-[#f7f7f7] px-[60px] py-[30px] w-[375px]'>
                             <div className='flex justify-center items-center '>
                                 <div className='w-[80px] h-[80px] flex justify-center items-center   bg-[#f7f7f7] rounded-full'>
                                     <img className='w-[38px] h-[38px]' src={service_icon1} alt="similar website image" />
@@ -82,7 +107,7 @@ const Services = () => {
                                 <h4 className='font-semibold'>Logo Designing</h4>
                                 <p className='text-[15px]'>Create a unique visual identity that resonates, leaving a lasting impression on your audience.</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
