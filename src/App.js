@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import Services from "./components/Services"
 import "./index.css"
+import TechNews from "./components/TechNews";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       {/* <Route path="/services" element={<Services/>}/> */}
+      <Route path="/tech-news" element={<TechNews/>}/>
     </Routes>
    </Suspense>
    </Router>

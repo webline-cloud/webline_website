@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+import "./Home.css"
 
 //images
 import banner_dec_left from "./../assets/images/banner-dec-left.png"
@@ -12,35 +13,36 @@ const Header = () => {
 
   const handleButtonClick = () => {
     const secondComponent = document.getElementById('sendMessage');
-    
+
     if (secondComponent) {
       secondComponent.scrollIntoView({ behavior: 'smooth' });
-    } 
+    }
   };
   const homeButtonClick = () => {
     const homeComponent = document.getElementById('home');
-    if(homeComponent){
+    if (homeComponent) {
       homeComponent.scrollIntoView({ behavior: 'smooth' });
     }
   }
   const serviceButtonClick = () => {
     const serviceComponent = document.getElementById('service');
-    
-    if(serviceComponent){
+
+    if (serviceComponent) {
       serviceComponent.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
- 
+
   return (
-    <div className=''  id='home'>
+    <div className='' id='home'>
       {/* header start  */}
       <div className='flex justify-between items-center bg-[#33ccc5] text-white px-[50px] py-[23px] sm:w-full sticky top-0 z-20'>
-       <Link to="/"><div><span className='font-extrabold text-[30px] tracking-wide curso'>Webline Cloud</span></div></Link>
-        <div className='sm:flex text-white  justify-between hidden w-[250px] font-semibold tracking-wide'>
-         <div onClick={homeButtonClick} className='cursor-pointer'>Home</div>
-         <div onClick={serviceButtonClick} className='cursor-pointer'>Services</div>
-          <div onClick={handleButtonClick} className='cursor-pointer'>Contact Us</div>
+        <Link to="/"><div><span className='font-extrabold text-[30px] tracking-wide curso'>Webline Cloud</span></div></Link>
+        <div className='sm:flex text-white  justify-between hidden w-[350px] font-semibold tracking-wide'>
+        <Link to="/">  <div onClick={homeButtonClick} className='cursor-pointer'>Home</div></Link>
+        <Link to="/"> <div onClick={serviceButtonClick} className='cursor-pointer'>Services</div></Link>
+        <Link to="/"> <div onClick={handleButtonClick} className='cursor-pointer'>Contact Us</div></Link>
+          <Link to="/tech-news">  <div className='cursor-pointer'>Tech news</div></Link>
         </div>
         <div>
           <div onClick={handleButtonClick} className='bg-[#4771cb] hidden md:block cursor-pointer text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb]'>Get Your Quote</div>
@@ -95,9 +97,7 @@ const Header = () => {
       </div> */}
       {/* hero page end */}
 
-      {/* hero slider start */}
-      <Hero_Slider/>
-      {/* hero slider end */}
+    
 
     </div>
   )
