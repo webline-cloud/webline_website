@@ -8,7 +8,7 @@ const TechNews = () => {
     <div>
         <Header/>
         <div className='h-[200vh] example'>
-            <iframe className='w-full h-full example' src="https://blog.webline.cloud/" frameborder="0"></iframe>
+            <iframe className='w-full h-full example' src="https://medium.com/@brajenchy2" frameborder="0"></iframe>
         </div>
         <Footer />
     </div>
