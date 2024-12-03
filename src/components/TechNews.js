@@ -9,7 +9,8 @@ const TechNews = () => {
         <Header/>
         <div className='h-[200vh] example'>
             //<iframe className='w-full h-full example' src="https://write.navneet-kumar.in/" frameborder="0"></iframe>
-    <iframe className='w-full h-full example' src="https://write.navneet-kumar.in/" frameBorder="0" sandbox="allow-scripts allow-forms allow-same-origin"></iframe>
+    <object className="w-full h-full" data="https://write.navneet-kumar.in" type="text/html"></object>
+
 
         </div>
         <Footer />
