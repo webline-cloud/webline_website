@@ -42,7 +42,7 @@ const Header = () => {
         <Link to="/">  <div onClick={homeButtonClick} className='cursor-pointer'>Home</div></Link>
         <Link to="/"> <div onClick={serviceButtonClick} className='cursor-pointer'>Services</div></Link>
         <Link to="/"> <div onClick={handleButtonClick} className='cursor-pointer'>Contact Us</div></Link>
-          <Link to="/tech-news">  <div className='cursor-pointer'>Home Service</div></Link>
+          <Link to="/home-service">  <div className='cursor-pointer'>Home Service</div></Link>
         </div>
         <div>
           <div onClick={handleButtonClick} className='bg-[#4771cb] hidden md:block cursor-pointer text-white font-semibold rounded-full px-[20px] py-[10px] hover:bg-white hover:text-[#4771cb]'>Get Your Quote</div>
